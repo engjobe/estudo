@@ -1,7 +1,6 @@
 package estudo;
 
 public class treino01 {
-
     public static void main(String[] args) {
         double resultado;
 
@@ -20,4 +19,5 @@ public class treino01 {
         resultado = 15.0 / 7;
         System.out.println(resultado); // double / int ==> resultado será double
     } 
+
 }
