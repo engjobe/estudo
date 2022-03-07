@@ -11,7 +11,6 @@ public class treino13 {
 
         float media = x / y;
 
-        //System.out.println(media);
         System.out.printf("%.3f Km/l%n", media);
 
         entrada.close ();
