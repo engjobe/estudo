@@ -1,11 +1,12 @@
 package estudo;
 
 import java.io.IOException;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class treino14 {
     public static void main (String[] args) throws IOException {
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
 
          double x1, x2, y1, y2, distancia;
 
