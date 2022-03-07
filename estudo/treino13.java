@@ -6,12 +6,12 @@ public class treino13 {
     public static void main (String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        float x = entrada.nextFloat();
-        float y = entrada.nextFloat();
+        double x = entrada.nextDouble();
+        double y = entrada.nextDouble();
 
-        float media = x / y;
+        double media = x / y;
 
-        System.out.printf("%.3f Km/l%n", media);
+        System.out.printf("%.3f Km/l\n", media);
 
         entrada.close ();
     }
