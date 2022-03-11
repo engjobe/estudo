@@ -5,7 +5,6 @@ import java.util.Scanner;
 import java.util.Locale;
 
 public class treino18 {
-	
     public static void main(String[] args) throws IOException {
         Scanner entrada = new Scanner(System.in).useLocale(Locale.US);
         int notasInseridas = entrada.nextInt();
